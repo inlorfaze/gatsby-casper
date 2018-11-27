@@ -153,7 +153,7 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
         </SiteNavLeft>
         <SiteNavRight>
           <SocialLinks>
-             {config.facebook && (
+            {config.facebook && (
               <a
                 className={`${SocialLink}`}
                 href={config.facebook}

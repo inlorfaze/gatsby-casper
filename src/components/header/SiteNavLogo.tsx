@@ -22,7 +22,7 @@ const SiteNavLogoStyles = css`
   img {
     display: block;
     width: auto;
-    height: 21px;
+    height: 25px;
   }
 `;
 
@@ -53,8 +53,8 @@ const SiteNavLogo = () => (
         {data.logo ? (
           <img src={data.logo.childImageSharp.fixed.src} alt={config.title} />
         ) : (
-          config.title
-        )}
+            config.title
+          )}
       </Link>
     )}
   />

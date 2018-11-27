@@ -70,6 +70,8 @@ const Footer: React.SFC = () => {
       <div className={`${inner} ${SiteFooterContent}`}>
         <section className="copyright">
           <Link to="/">{config.title}</Link> &copy; {new Date().getFullYear()}
+          | Logo Icon made by <a href="https://www.flaticon.com/authors/icomoon">Icomoon</a>
+
         </section>
         <SiteFooterNav>
           <Link to="/">Latest Posts</Link>

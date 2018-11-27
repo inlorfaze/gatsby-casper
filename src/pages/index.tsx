@@ -114,7 +114,7 @@ const IndexPage: React.SFC<IndexProps> = props => {
         <header
           className={`${SiteHeader} ${outer}`}
           style={{
-            backgroundImage: `url('${props.data.header.childImageSharp.fluid.src}')`,
+
           }}
         >
           <div className={`${inner}`}>
@@ -127,8 +127,8 @@ const IndexPage: React.SFC<IndexProps> = props => {
                     alt={config.title}
                   />
                 ) : (
-                  config.title
-                )}
+                    config.title
+                  )}
               </SiteTitle>
               <SiteDescription>{config.description}</SiteDescription>
             </SiteHeaderContent>
