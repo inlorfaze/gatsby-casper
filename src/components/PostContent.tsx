@@ -10,7 +10,7 @@ export const PostFullContent = styled.section`
   margin: 0 auto;
   padding: 70px 100px 0;
   min-height: 230px;
-  font-family: Georgia, serif;
+  font-family:  rooney-web, serif;
   font-size: 2.2rem;
   line-height: 1.6em;
   background: #fff;
@@ -220,8 +220,8 @@ export const PostFullContent = styled.section`
   h5,
   h6 {
     color: ${setLightness('0.05', colors.darkgrey)};
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-      'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: neue-haas-unica, sans-serif;
+
   }
 
   h1 {
@@ -274,7 +274,7 @@ export const PostFullContent = styled.section`
     padding: 1em 0 1.5em;
     border: 0;
     color: ${colors.blue};
-    font-family: Georgia, serif;
+    font-family:  rooney-web, serif;
     font-size: 3.2rem;
     line-height: 1.35em;
     text-align: center;

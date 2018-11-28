@@ -10,7 +10,7 @@ const SiteNavLogoStyles = css`
   margin-right: 24px;
   padding: 1px 0;
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 2rem;
   line-height: 1em;
   font-weight: bold;
   letter-spacing: -0.5px;
@@ -38,7 +38,7 @@ const SiteNavLogo = () => (
   <StaticQuery
     query={graphql`
       query HeadingQuery {
-        logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+        logo: file(relativePath: { eq: "" }) {
           childImageSharp {
             fixed {
               ...GatsbyImageSharpFixed

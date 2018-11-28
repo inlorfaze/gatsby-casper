@@ -17,10 +17,10 @@ const PageTemplate = css`
 `;
 
 
-const About: React.SFC = () => (
+const Portfolio: React.SFC = () => (
   <IndexLayout>
     <Helmet>
-      <title>About</title>
+      <title>Portfolio</title>
     </Helmet>
     <Wrapper className={`${PageTemplate}`}>
       <header className={`${SiteHeader} ${outer}`}>
@@ -31,13 +31,13 @@ const About: React.SFC = () => (
       <main id="site-main" className={`site-main ${SiteMain} ${outer}`}>
         <article className={`${PostFull} post page ${NoImage}`}>
           <PostFullHeader>
-            <PostFullTitle>About</PostFullTitle>
+            <PostFullTitle>Portfolio</PostFullTitle>
           </PostFullHeader>
 
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                My name is Francisco Martinez
+                
               </p>
             </div>
           </PostFullContent>
@@ -48,4 +48,4 @@ const About: React.SFC = () => (
   </IndexLayout>
 );
 
-export default About;
+export default Portfolio;

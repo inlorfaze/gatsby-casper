@@ -77,7 +77,7 @@ const PostCardTitle = styled.h2`
 `;
 
 const PostCardExcerpt = styled.section`
-  font-family: Georgia, serif;
+  font-family:  rooney-web, serif;
 `;
 
 const PostCardMeta = styled.footer`
